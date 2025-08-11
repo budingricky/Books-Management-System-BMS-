@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_margin"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/card_padding">
+
+        <!-- 书名和状态行 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_book_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="图书标题"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold"
+                android:textColor="?attr/colorOnSurface"
+                android:maxLines="2"
+                android:ellipsize="end" />
+
+            <TextView
+                android:id="@+id/tv_book_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可借阅"
+                android:textSize="@dimen/text_size_small"
+                android:textStyle="bold"
+                android:padding="4dp"
+                android:background="@drawable/status_background"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- 作者信息 -->
+        <TextView
+            android:id="@+id/tv_book_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="作者: 未知"
+            android:textSize="@dimen/text_size_medium"
+            android:textColor="?attr/colorOnSurface"
+            android:layout_marginTop="4dp"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <!-- ISBN信息 -->
+        <TextView
+            android:id="@+id/tv_book_isbn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ISBN: 无"
+            android:textSize="@dimen/text_size_small"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:layout_marginTop="2dp" />
+
+        <!-- 分类和位置信息 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:id="@+id/tv_book_category"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="分类: 未分类"
+                android:textSize="@dimen/text_size_small"
+                android:textColor="?attr/colorOnSurfaceVariant" />
+
+            <TextView
+                android:id="@+id/tv_book_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="位置: A1-01"
+                android:textSize="@dimen/text_size_small"
+                android:textColor="?attr/colorOnSurfaceVariant" />
+        </LinearLayout>
+
+        <!-- 操作按钮 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="12dp">
+
+            <Button
+                android:id="@+id/btn_borrow"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:text="@string/action_borrow"
+                android:textSize="@dimen/text_size_small"
+                style="@style/Widget.Material3.Button"
+                android:minWidth="80dp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
