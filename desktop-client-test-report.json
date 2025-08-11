@@ -1,0 +1,467 @@
+{
+  "summary": {
+    "total": 71,
+    "passed": 64,
+    "failed": 7,
+    "successRate": "90.14%"
+  },
+  "timestamp": "2025-08-09T04:45:06.737Z",
+  "details": [
+    {
+      "test": "桌面客户端文件: package.json",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.680Z"
+    },
+    {
+      "test": "桌面客户端文件: main.js",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.680Z"
+    },
+    {
+      "test": "桌面客户端文件: webpack.config.js",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.681Z"
+    },
+    {
+      "test": "桌面客户端文件: babel.config.js",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.681Z"
+    },
+    {
+      "test": "桌面客户端文件: src/App.js",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.681Z"
+    },
+    {
+      "test": "桌面客户端文件: src/index.js",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.681Z"
+    },
+    {
+      "test": "桌面客户端文件: src/index.html",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.682Z"
+    },
+    {
+      "test": "桌面客户端目录: src",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.682Z"
+    },
+    {
+      "test": "桌面客户端目录: src/pages",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.682Z"
+    },
+    {
+      "test": "桌面客户端目录: src/services",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.682Z"
+    },
+    {
+      "test": "桌面客户端目录: src/styles",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.682Z"
+    },
+    {
+      "test": "桌面客户端目录: assets",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.682Z"
+    },
+    {
+      "test": "桌面客户端目录: renderer",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.683Z"
+    },
+    {
+      "test": "src/pages/Dashboard.js - 基本结构",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.683Z"
+    },
+    {
+      "test": "src/pages/Dashboard.js - API集成",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.683Z"
+    },
+    {
+      "test": "src/pages/BookManagement.js - 基本结构",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.684Z"
+    },
+    {
+      "test": "src/pages/BookManagement.js - API集成",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.684Z"
+    },
+    {
+      "test": "src/pages/BookSearch.js - 基本结构",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.685Z"
+    },
+    {
+      "test": "src/pages/BookSearch.js - API集成",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.685Z"
+    },
+    {
+      "test": "src/pages/BorrowManagement.js - 基本结构",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.685Z"
+    },
+    {
+      "test": "src/pages/BorrowManagement.js - API集成",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.685Z"
+    },
+    {
+      "test": "src/pages/Categories.js - 基本结构",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.686Z"
+    },
+    {
+      "test": "src/pages/Categories.js - API集成",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.686Z"
+    },
+    {
+      "test": "src/pages/Statistics.js - 基本结构",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.686Z"
+    },
+    {
+      "test": "src/pages/Statistics.js - API集成",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.686Z"
+    },
+    {
+      "test": "src/pages/Settings.js - 基本结构",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.687Z"
+    },
+    {
+      "test": "src/pages/Settings.js - API集成",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.687Z"
+    },
+    {
+      "test": "src/pages/BatchInput.js - 基本结构",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.687Z"
+    },
+    {
+      "test": "src/pages/BatchInput.js - API集成",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.687Z"
+    },
+    {
+      "test": "src/pages/Test.js - 基本结构",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.688Z"
+    },
+    {
+      "test": "src/pages/Test.js - API集成",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.688Z"
+    },
+    {
+      "test": "Electron主进程文件",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.689Z"
+    },
+    {
+      "test": "Electron模块导入",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.689Z"
+    },
+    {
+      "test": "BrowserWindow配置",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.689Z"
+    },
+    {
+      "test": "应用生命周期管理",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.689Z"
+    },
+    {
+      "test": "React主组件文件",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.689Z"
+    },
+    {
+      "test": "React导入",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.690Z"
+    },
+    {
+      "test": "路由配置",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.690Z"
+    },
+    {
+      "test": "导航组件",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.690Z"
+    },
+    {
+      "test": "API服务文件",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.691Z"
+    },
+    {
+      "test": "HTTP客户端配置",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.691Z"
+    },
+    {
+      "test": "API基础URL配置",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.691Z"
+    },
+    {
+      "test": "API方法: books",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.691Z"
+    },
+    {
+      "test": "API方法: categories",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.691Z"
+    },
+    {
+      "test": "API方法: borrows",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.691Z"
+    },
+    {
+      "test": "API方法: statistics",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.691Z"
+    },
+    {
+      "test": "API方法: settings",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.691Z"
+    },
+    {
+      "test": "样式文件: src/styles/App.css",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.692Z"
+    },
+    {
+      "test": "src/styles/App.css - CSS语法",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.692Z"
+    },
+    {
+      "test": "样式文件: src/styles/global.css",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.692Z"
+    },
+    {
+      "test": "src/styles/global.css - CSS语法",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.693Z"
+    },
+    {
+      "test": "package.json文件",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.693Z"
+    },
+    {
+      "test": "依赖: electron",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.693Z"
+    },
+    {
+      "test": "依赖: react",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.693Z"
+    },
+    {
+      "test": "依赖: react-dom",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.694Z"
+    },
+    {
+      "test": "启动脚本",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.694Z"
+    },
+    {
+      "test": "构建脚本",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.694Z"
+    },
+    {
+      "test": "Webpack配置文件",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.694Z"
+    },
+    {
+      "test": "Webpack入口配置",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.694Z"
+    },
+    {
+      "test": "Webpack输出配置",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.694Z"
+    },
+    {
+      "test": "Webpack加载器配置",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.694Z"
+    },
+    {
+      "test": "渲染器构建目录",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.695Z"
+    },
+    {
+      "test": "JavaScript打包文件",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.695Z"
+    },
+    {
+      "test": "HTML入口文件",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.695Z"
+    },
+    {
+      "test": "Electron构建目录",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.695Z"
+    },
+    {
+      "test": "可执行文件",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.696Z"
+    },
+    {
+      "test": "后端API连接",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.729Z"
+    },
+    {
+      "test": "API端点: /api/books",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.732Z"
+    },
+    {
+      "test": "API端点: /api/categories",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.734Z"
+    },
+    {
+      "test": "API端点: /api/borrows",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.736Z"
+    },
+    {
+      "test": "API端点: /api/statistics/overview",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:45:06.737Z"
+    }
+  ],
+  "errors": [
+    {
+      "test": "src/pages/Dashboard.js - API集成",
+      "error": ""
+    },
+    {
+      "test": "src/pages/BookSearch.js - API集成",
+      "error": ""
+    },
+    {
+      "test": "src/pages/BorrowManagement.js - API集成",
+      "error": ""
+    },
+    {
+      "test": "src/pages/Categories.js - API集成",
+      "error": ""
+    },
+    {
+      "test": "src/pages/Statistics.js - API集成",
+      "error": ""
+    },
+    {
+      "test": "src/pages/Settings.js - API集成",
+      "error": ""
+    },
+    {
+      "test": "src/pages/Test.js - API集成",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "timestamp": "2025-08-09T03:13:12.905Z",
+  "summary": {
+    "total": 52,
+    "passed": 51,
+    "failed": 1,
+    "successRate": "98.1"
+  },
+  "tests": [
+    {
+      "name": "文件存在: src/App.tsx",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "文件存在: src/pages/Home.tsx",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "文件存在: src/pages/Books.tsx",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "文件存在: src/pages/Borrows.tsx",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "文件存在: src/pages/Categories.tsx",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "文件存在: src/pages/Statistics.tsx",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "文件存在: src/pages/Settings.tsx",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "文件存在: src/components/Layout.tsx",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "文件存在: src/utils/api.ts",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "App组件结构",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "App组件TypeScript",
+      "passed": false,
+      "details": ""
+    },
+    {
+      "name": "Layout组件结构",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Layout组件TypeScript",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Home页面结构",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Home页面TypeScript",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Books页面结构",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Books页面TypeScript",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Borrows页面结构",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Borrows页面TypeScript",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Categories页面结构",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Categories页面TypeScript",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Statistics页面结构",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Statistics页面TypeScript",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Settings页面结构",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Settings页面TypeScript",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由器配置",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由定义",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由: /",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由: /books",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由: /borrows",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由: /categories",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由: /statistics",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由: /settings",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Ant Design依赖",
+      "passed": true,
+      "details": "版本: ^5.26.7"
+    },
+    {
+      "name": "Ant Design图标",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "UI组件使用",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "HTTP客户端(Axios)",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "API端点定义",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "错误处理机制",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Vite配置文件",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "React插件配置",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "TypeScript配置",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Tailwind配置",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "前端服务器运行",
+      "passed": true,
+      "details": "状态码: 200"
+    },
+    {
+      "name": "React根元素存在",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "页面标题存在",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "API健康检查",
+      "passed": true,
+      "details": "服务器正常运行"
+    },
+    {
+      "name": "图书API连接",
+      "passed": true,
+      "details": "返回8本图书"
+    },
+    {
+      "name": "分类API连接",
+      "passed": true,
+      "details": "返回17个分类"
+    },
+    {
+      "name": "借阅API连接",
+      "passed": true,
+      "details": "返回5条借阅记录"
+    },
+    {
+      "name": "统计API连接",
+      "passed": true,
+      "details": "统计数据正常"
+    },
+    {
+      "name": "设置API连接",
+      "passed": true,
+      "details": "设置数据正常"
+    }
+  ]
+}

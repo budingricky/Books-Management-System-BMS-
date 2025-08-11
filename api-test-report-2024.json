@@ -1,0 +1,168 @@
+{
+  "summary": {
+    "total": 15,
+    "passed": 2,
+    "failed": 13,
+    "successRate": "13.33%"
+  },
+  "timestamp": "2025-08-09T04:37:54.525Z",
+  "details": [
+    {
+      "test": "健康检查",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:37:50.119Z"
+    },
+    {
+      "test": "获取图书列表",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:37:50.627Z"
+    },
+    {
+      "test": "添加图书",
+      "success": false,
+      "message": "响应格式不正确",
+      "timestamp": "2025-08-09T04:37:50.641Z"
+    },
+    {
+      "test": "搜索图书",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:37:50.644Z"
+    },
+    {
+      "test": "获取分类列表",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:37:51.151Z"
+    },
+    {
+      "test": "添加分类",
+      "success": false,
+      "message": "Request failed with status code 400",
+      "timestamp": "2025-08-09T04:37:51.154Z"
+    },
+    {
+      "test": "获取借阅记录",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:37:51.661Z"
+    },
+    {
+      "test": "获取即将到期借阅",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:37:51.662Z"
+    },
+    {
+      "test": "获取最近活动",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:37:51.663Z"
+    },
+    {
+      "test": "获取概览统计",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:37:52.171Z"
+    },
+    {
+      "test": "获取月度统计",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:37:52.173Z"
+    },
+    {
+      "test": "获取分类统计",
+      "success": false,
+      "message": "Request failed with status code 404",
+      "timestamp": "2025-08-09T04:37:52.174Z"
+    },
+    {
+      "test": "获取设置",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:37:52.681Z"
+    },
+    {
+      "test": "更新设置",
+      "success": false,
+      "message": "Request failed with status code 400",
+      "timestamp": "2025-08-09T04:37:52.683Z"
+    },
+    {
+      "test": "ISBN查询",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:37:54.525Z"
+    }
+  ],
+  "errors": [
+    {
+      "test": "健康检查",
+      "error": "",
+      "response": null
+    },
+    {
+      "test": "获取图书列表",
+      "error": "",
+      "response": null
+    },
+    {
+      "test": "添加图书",
+      "error": "响应格式不正确",
+      "response": null
+    },
+    {
+      "test": "搜索图书",
+      "error": "",
+      "response": null
+    },
+    {
+      "test": "获取分类列表",
+      "error": "",
+      "response": null
+    },
+    {
+      "test": "添加分类",
+      "error": "Request failed with status code 400",
+      "response": null
+    },
+    {
+      "test": "获取借阅记录",
+      "error": "",
+      "response": null
+    },
+    {
+      "test": "获取即将到期借阅",
+      "error": "",
+      "response": null
+    },
+    {
+      "test": "获取最近活动",
+      "error": "",
+      "response": null
+    },
+    {
+      "test": "获取月度统计",
+      "error": "",
+      "response": null
+    },
+    {
+      "test": "获取分类统计",
+      "error": "Request failed with status code 404",
+      "response": null
+    },
+    {
+      "test": "获取设置",
+      "error": "",
+      "response": null
+    },
+    {
+      "test": "更新设置",
+      "error": "Request failed with status code 400",
+      "response": null
+    }
+  ]
+}

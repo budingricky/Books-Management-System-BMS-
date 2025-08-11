@@ -1,0 +1,292 @@
+{
+  "timestamp": "2025-08-09T03:17:02.737Z",
+  "database": "E:\\OpenSourceProject\\Library\\V4.0\\data\\library.db",
+  "summary": {
+    "total": 56,
+    "passed": 54,
+    "failed": 2,
+    "successRate": "96.4"
+  },
+  "tests": [
+    {
+      "name": "SQL.js初始化",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "数据库文件存在",
+      "passed": true,
+      "details": "E:\\OpenSourceProject\\Library\\V4.0\\data\\library.db"
+    },
+    {
+      "name": "数据库连接成功",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "基本查询测试",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "获取表列表",
+      "passed": true,
+      "details": "找到4个表"
+    },
+    {
+      "name": "表存在: books",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "books表结构",
+      "passed": true,
+      "details": "18个字段"
+    },
+    {
+      "name": "表存在: categories",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "categories表结构",
+      "passed": true,
+      "details": "6个字段"
+    },
+    {
+      "name": "表存在: borrows",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "borrows表结构",
+      "passed": true,
+      "details": "10个字段"
+    },
+    {
+      "name": "表存在: settings",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "settings表结构",
+      "passed": true,
+      "details": "6个字段"
+    },
+    {
+      "name": "books表字段: id",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "books表字段: isbn",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "books表字段: title",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "books表字段: author",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "books表字段: publisher",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "books表字段: category_id",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "books表字段: status",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "图书数据查询",
+      "passed": true,
+      "details": "共8本图书"
+    },
+    {
+      "name": "图书状态值",
+      "passed": true,
+      "details": "状态: available, borrowed"
+    },
+    {
+      "name": "books表索引",
+      "passed": true,
+      "details": "6个索引"
+    },
+    {
+      "name": "categories表字段: id",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "categories表字段: name",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "categories表字段: code",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "categories表字段: level",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "categories表字段: parent_id",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "分类数据查询",
+      "passed": true,
+      "details": "共17个分类"
+    },
+    {
+      "name": "分类层级结构",
+      "passed": true,
+      "details": "层级: 1, 2"
+    },
+    {
+      "name": "分类父子关系",
+      "passed": true,
+      "details": "根分类: 10, 子分类: 7"
+    },
+    {
+      "name": "borrows表字段: id",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "borrows表字段: book_id",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "borrows表字段: borrower",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "borrows表字段: due_date",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "borrows表字段: status",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "borrows表字段: created_at",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "借阅数据查询",
+      "passed": true,
+      "details": "共5条借阅记录"
+    },
+    {
+      "name": "借阅状态值",
+      "passed": true,
+      "details": "状态: borrowed, returned"
+    },
+    {
+      "name": "当前借阅统计",
+      "passed": true,
+      "details": "当前借阅: 1本"
+    },
+    {
+      "name": "逾期借阅统计",
+      "passed": true,
+      "details": "逾期: 0本"
+    },
+    {
+      "name": "settings表字段: key",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "settings表字段: value",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "settings表字段: description",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "settings表字段: type",
+      "passed": false,
+      "details": ""
+    },
+    {
+      "name": "设置数据查询",
+      "passed": true,
+      "details": "共4个设置项"
+    },
+    {
+      "name": "设置项: default_borrow_days",
+      "passed": true,
+      "details": "值: default_borrow_days"
+    },
+    {
+      "name": "设置项: max_borrow_books",
+      "passed": false,
+      "details": "不存在"
+    },
+    {
+      "name": "设置项: isbn_api_key",
+      "passed": true,
+      "details": "值: isbn_api_key"
+    },
+    {
+      "name": "图书分类关联",
+      "passed": true,
+      "details": "所有图书分类正常"
+    },
+    {
+      "name": "借阅图书关联",
+      "passed": true,
+      "details": "所有借阅记录正常"
+    },
+    {
+      "name": "图书状态一致性",
+      "passed": true,
+      "details": "图书状态一致"
+    },
+    {
+      "name": "复杂查询性能",
+      "passed": true,
+      "details": "查询时间: 2ms, 结果: 8条"
+    },
+    {
+      "name": "索引查询性能",
+      "passed": true,
+      "details": "查询时间: 0ms"
+    },
+    {
+      "name": "数据库文件大小",
+      "passed": true,
+      "details": "0.08 MB"
+    },
+    {
+      "name": "数据库大小合理",
+      "passed": true,
+      "details": "数据库大小正常"
+    }
+  ]
+}

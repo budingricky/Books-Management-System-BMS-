@@ -1,0 +1,415 @@
+{
+  "summary": {
+    "total": 65,
+    "passed": 62,
+    "failed": 3,
+    "successRate": "95.38%"
+  },
+  "timestamp": "2025-08-09T04:42:09.960Z",
+  "details": [
+    {
+      "test": "文件存在: src/App.tsx",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.915Z"
+    },
+    {
+      "test": "文件存在: src/main.tsx",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.915Z"
+    },
+    {
+      "test": "文件存在: src/index.css",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.915Z"
+    },
+    {
+      "test": "文件存在: package.json",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.915Z"
+    },
+    {
+      "test": "文件存在: tsconfig.json",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.916Z"
+    },
+    {
+      "test": "文件存在: vite.config.ts",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.916Z"
+    },
+    {
+      "test": "文件存在: tailwind.config.js",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.916Z"
+    },
+    {
+      "test": "目录存在: src/components",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.916Z"
+    },
+    {
+      "test": "目录存在: src/pages",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.916Z"
+    },
+    {
+      "test": "目录存在: src/utils",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.917Z"
+    },
+    {
+      "test": "目录存在: src/hooks",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.917Z"
+    },
+    {
+      "test": "src/App.tsx - 基本结构",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.918Z"
+    },
+    {
+      "test": "src/App.tsx - TypeScript类型",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.918Z"
+    },
+    {
+      "test": "src/components/Layout.tsx - 基本结构",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.918Z"
+    },
+    {
+      "test": "src/components/Layout.tsx - TypeScript类型",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.918Z"
+    },
+    {
+      "test": "src/components/Empty.tsx - 基本结构",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.918Z"
+    },
+    {
+      "test": "src/components/Empty.tsx - TypeScript类型",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.918Z"
+    },
+    {
+      "test": "src/pages/Home.tsx - 基本结构",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.919Z"
+    },
+    {
+      "test": "src/pages/Home.tsx - TypeScript类型",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.919Z"
+    },
+    {
+      "test": "src/pages/Books.tsx - 基本结构",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.919Z"
+    },
+    {
+      "test": "src/pages/Books.tsx - TypeScript类型",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.919Z"
+    },
+    {
+      "test": "src/pages/Borrows.tsx - 基本结构",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.920Z"
+    },
+    {
+      "test": "src/pages/Borrows.tsx - TypeScript类型",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.920Z"
+    },
+    {
+      "test": "src/pages/Categories.tsx - 基本结构",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.920Z"
+    },
+    {
+      "test": "src/pages/Categories.tsx - TypeScript类型",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.920Z"
+    },
+    {
+      "test": "src/pages/Statistics.tsx - 基本结构",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.920Z"
+    },
+    {
+      "test": "src/pages/Statistics.tsx - TypeScript类型",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.921Z"
+    },
+    {
+      "test": "src/pages/Settings.tsx - 基本结构",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.921Z"
+    },
+    {
+      "test": "src/pages/Settings.tsx - TypeScript类型",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.921Z"
+    },
+    {
+      "test": "路由器配置",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.922Z"
+    },
+    {
+      "test": "路由定义",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.922Z"
+    },
+    {
+      "test": "路由: /",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.922Z"
+    },
+    {
+      "test": "路由: /books",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.922Z"
+    },
+    {
+      "test": "路由: /borrows",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.922Z"
+    },
+    {
+      "test": "路由: /categories",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.922Z"
+    },
+    {
+      "test": "路由: /statistics",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.922Z"
+    },
+    {
+      "test": "路由: /settings",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.922Z"
+    },
+    {
+      "test": "Tailwind配置文件",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.923Z"
+    },
+    {
+      "test": "Tailwind内容配置",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.923Z"
+    },
+    {
+      "test": "主样式文件",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.923Z"
+    },
+    {
+      "test": "Tailwind导入",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.923Z"
+    },
+    {
+      "test": "TypeScript配置文件",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.924Z"
+    },
+    {
+      "test": "编译选项配置",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.924Z"
+    },
+    {
+      "test": "JSX配置",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.924Z"
+    },
+    {
+      "test": "模块解析配置",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.924Z"
+    },
+    {
+      "test": "Vite配置文件",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.924Z"
+    },
+    {
+      "test": "React插件配置",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.925Z"
+    },
+    {
+      "test": "服务器配置",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.925Z"
+    },
+    {
+      "test": "API工具文件",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.925Z"
+    },
+    {
+      "test": "Axios集成",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.925Z"
+    },
+    {
+      "test": "API端点定义",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.925Z"
+    },
+    {
+      "test": "API服务连接",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.958Z"
+    },
+    {
+      "test": "package.json文件",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.959Z"
+    },
+    {
+      "test": "依赖: react",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.959Z"
+    },
+    {
+      "test": "依赖: react-dom",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.959Z"
+    },
+    {
+      "test": "依赖: react-router-dom",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.959Z"
+    },
+    {
+      "test": "依赖: axios",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.959Z"
+    },
+    {
+      "test": "依赖: tailwindcss",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.959Z"
+    },
+    {
+      "test": "依赖: typescript",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.959Z"
+    },
+    {
+      "test": "依赖: vite",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.959Z"
+    },
+    {
+      "test": "开发脚本",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.960Z"
+    },
+    {
+      "test": "构建脚本",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.960Z"
+    },
+    {
+      "test": "构建输出目录",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.960Z"
+    },
+    {
+      "test": "构建HTML文件",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.960Z"
+    },
+    {
+      "test": "构建资源目录",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:42:09.960Z"
+    }
+  ],
+  "errors": [
+    {
+      "test": "src/App.tsx - TypeScript类型",
+      "error": ""
+    },
+    {
+      "test": "src/components/Empty.tsx - 基本结构",
+      "error": ""
+    },
+    {
+      "test": "src/components/Empty.tsx - TypeScript类型",
+      "error": ""
+    }
+  ]
+}

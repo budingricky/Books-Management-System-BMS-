@@ -1,0 +1,157 @@
+{
+  "summary": {
+    "total": 20,
+    "passed": 14,
+    "failed": 6,
+    "successRate": "70.00%"
+  },
+  "timestamp": "2025-08-09T04:43:48.981Z",
+  "details": [
+    {
+      "test": "数据库健康检查",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:43:47.444Z"
+    },
+    {
+      "test": "books表数据获取",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:43:47.447Z"
+    },
+    {
+      "test": "books表数据格式",
+      "success": false,
+      "message": "数据格式不正确",
+      "timestamp": "2025-08-09T04:43:47.447Z"
+    },
+    {
+      "test": "categories表数据获取",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:43:47.558Z"
+    },
+    {
+      "test": "categories表数据格式",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:43:47.558Z"
+    },
+    {
+      "test": "borrows表数据获取",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:43:47.666Z"
+    },
+    {
+      "test": "borrows表数据格式",
+      "success": false,
+      "message": "数据格式不正确",
+      "timestamp": "2025-08-09T04:43:47.666Z"
+    },
+    {
+      "test": "settings表数据获取",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:43:47.774Z"
+    },
+    {
+      "test": "settings表数据格式",
+      "success": false,
+      "message": "数据格式不正确",
+      "timestamp": "2025-08-09T04:43:47.774Z"
+    },
+    {
+      "test": "创建图书",
+      "success": false,
+      "message": "创建失败",
+      "timestamp": "2025-08-09T04:43:47.883Z"
+    },
+    {
+      "test": "创建分类",
+      "success": false,
+      "message": "创建失败",
+      "timestamp": "2025-08-09T04:43:48.099Z"
+    },
+    {
+      "test": "分类数据存在",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:43:48.318Z"
+    },
+    {
+      "test": "分类关联图书查询",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:43:48.323Z"
+    },
+    {
+      "test": "借阅记录查询",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:43:48.531Z"
+    },
+    {
+      "test": "ISBN唯一性约束测试",
+      "success": true,
+      "message": "创建成功或ISBN不重复",
+      "timestamp": "2025-08-09T04:43:48.534Z"
+    },
+    {
+      "test": "必填字段验证",
+      "success": true,
+      "message": "验证正常工作",
+      "timestamp": "2025-08-09T04:43:48.756Z"
+    },
+    {
+      "test": "概览统计获取",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:43:48.768Z"
+    },
+    {
+      "test": "统计数据字段完整性",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:43:48.769Z"
+    },
+    {
+      "test": "统计数据合理性",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:43:48.770Z"
+    },
+    {
+      "test": "分类统计测试",
+      "success": false,
+      "message": "Request failed with status code 404",
+      "timestamp": "2025-08-09T04:43:48.981Z"
+    }
+  ],
+  "errors": [
+    {
+      "test": "books表数据格式",
+      "error": "数据格式不正确"
+    },
+    {
+      "test": "borrows表数据格式",
+      "error": "数据格式不正确"
+    },
+    {
+      "test": "settings表数据格式",
+      "error": "数据格式不正确"
+    },
+    {
+      "test": "创建图书",
+      "error": "创建失败"
+    },
+    {
+      "test": "创建分类",
+      "error": "创建失败"
+    },
+    {
+      "test": "分类统计测试",
+      "error": "Request failed with status code 404"
+    }
+  ]
+}

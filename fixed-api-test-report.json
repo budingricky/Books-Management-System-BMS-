@@ -1,0 +1,1202 @@
+{
+  "summary": {
+    "total": 15,
+    "passed": 7,
+    "failed": 8,
+    "successRate": "46.67%"
+  },
+  "timestamp": "2025-08-09T04:41:06.151Z",
+  "details": [
+    {
+      "test": "健康检查",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:41:02.564Z",
+      "responseData": {
+        "success": true,
+        "message": "ok",
+        "database": "Connected",
+        "version": "1.0.0",
+        "timestamp": "2025-08-09T04:41:02.560Z"
+      }
+    },
+    {
+      "test": "获取图书列表",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:41:03.082Z",
+      "responseData": {
+        "success": true,
+        "data": {
+          "books": [
+            {
+              "id": 22,
+              "isbn": "9780000000000",
+              "title": "测试图书1754714270627",
+              "author": "测试作者",
+              "publisher": "",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "",
+              "shelf": "",
+              "row": "",
+              "column": "",
+              "number": "",
+              "status": "available",
+              "created_at": "2025-08-09 04:37:50",
+              "updated_at": "2025-08-09 04:37:50",
+              "category_name": "文学"
+            },
+            {
+              "id": 21,
+              "isbn": "9787222222222420",
+              "title": "借阅测试图书",
+              "author": "测试作者",
+              "publisher": "",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "测试房间",
+              "shelf": "B1",
+              "row": "1",
+              "column": "1",
+              "number": "002",
+              "status": "available",
+              "created_at": "2025-08-09 03:27:42",
+              "updated_at": "2025-08-09 03:27:42",
+              "category_name": "文学"
+            },
+            {
+              "id": 20,
+              "isbn": "9787111111111912",
+              "title": "测试图书",
+              "author": "测试作者",
+              "publisher": "测试出版社",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "测试房间",
+              "shelf": "A1",
+              "row": "1",
+              "column": "1",
+              "number": "001",
+              "status": "available",
+              "created_at": "2025-08-09 03:27:41",
+              "updated_at": "2025-08-09 03:27:41",
+              "category_name": "文学"
+            },
+            {
+              "id": 18,
+              "isbn": "9787111111111224",
+              "title": "测试图书",
+              "author": "测试作者",
+              "publisher": "测试出版社",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "测试房间",
+              "shelf": "A1",
+              "row": "1",
+              "column": "1",
+              "number": "001",
+              "status": "available",
+              "created_at": "2025-08-09 03:26:49",
+              "updated_at": "2025-08-09 03:26:49",
+              "category_name": "文学"
+            },
+            {
+              "id": 19,
+              "isbn": "9787222222222731",
+              "title": "借阅测试图书",
+              "author": "测试作者",
+              "publisher": "",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "测试房间",
+              "shelf": "B1",
+              "row": "1",
+              "column": "1",
+              "number": "002",
+              "status": "available",
+              "created_at": "2025-08-09 03:26:49",
+              "updated_at": "2025-08-09 03:26:49",
+              "category_name": "文学"
+            },
+            {
+              "id": 16,
+              "isbn": "9787111111111432",
+              "title": "测试图书",
+              "author": "测试作者",
+              "publisher": "测试出版社",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "测试房间",
+              "shelf": "A1",
+              "row": "1",
+              "column": "1",
+              "number": "001",
+              "status": "available",
+              "created_at": "2025-08-09 03:26:11",
+              "updated_at": "2025-08-09 03:26:11",
+              "category_name": "文学"
+            },
+            {
+              "id": 17,
+              "isbn": "9787222222222951",
+              "title": "借阅测试图书",
+              "author": "测试作者",
+              "publisher": "",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "测试房间",
+              "shelf": "B1",
+              "row": "1",
+              "column": "1",
+              "number": "002",
+              "status": "available",
+              "created_at": "2025-08-09 03:26:11",
+              "updated_at": "2025-08-09 03:26:11",
+              "category_name": "文学"
+            },
+            {
+              "id": 14,
+              "isbn": "9787111111111",
+              "title": "测试图书",
+              "author": "测试作者",
+              "publisher": "测试出版社",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "测试房间",
+              "shelf": "A1",
+              "row": "1",
+              "column": "1",
+              "number": "001",
+              "status": "available",
+              "created_at": "2025-08-09 03:04:19",
+              "updated_at": "2025-08-09 03:04:19",
+              "category_name": "文学"
+            },
+            {
+              "id": 15,
+              "isbn": "9787222222222",
+              "title": "借阅测试图书",
+              "author": "测试作者",
+              "publisher": "",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "测试房间",
+              "shelf": "B1",
+              "row": "1",
+              "column": "1",
+              "number": "002",
+              "status": "available",
+              "created_at": "2025-08-09 03:04:19",
+              "updated_at": "2025-08-09 03:04:19",
+              "category_name": "文学"
+            },
+            {
+              "id": 13,
+              "isbn": "9787100069595",
+              "title": "新华字典",
+              "author": "商务印书馆 编",
+              "publisher": "商务印书馆",
+              "publish_date": "2011-01-01",
+              "category_id": 1,
+              "cover_url": "https://data-isbn.oss-cn-hangzhou.aliyuncs.com/gr4a2jbf2z0pdt9ing5lual6a5z4ee0h.jpg",
+              "description": "本字典新增正体字800多个，以姓氏、人名、地名用字和科技术语用字为主；增收繁体字1500多个，异体字500多个。",
+              "price": 19.9,
+              "room": "11",
+              "shelf": "1",
+              "row": "1",
+              "column": "1",
+              "number": "1",
+              "status": "available",
+              "created_at": "2025-08-08 03:16:39",
+              "updated_at": "2025-08-08 03:16:39",
+              "category_name": "文学"
+            },
+            {
+              "id": 12,
+              "isbn": "9787302518327",
+              "title": "1211",
+              "author": "1111",
+              "publisher": "",
+              "publish_date": null,
+              "category_id": 4,
+              "cover_url": "",
+              "description": "",
+              "price": 0.08,
+              "room": "11",
+              "shelf": "1",
+              "row": "1",
+              "column": "1",
+              "number": "1",
+              "status": "available",
+              "created_at": "2025-08-08 03:03:14",
+              "updated_at": "2025-08-08 03:03:14",
+              "category_name": "历史"
+            },
+            {
+              "id": 11,
+              "isbn": "9787308236409",
+              "title": "1232",
+              "author": "111",
+              "publisher": "",
+              "publish_date": null,
+              "category_id": 10,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "101",
+              "shelf": "1",
+              "row": "1",
+              "column": "1",
+              "number": "1",
+              "status": "available",
+              "created_at": "2025-08-08 03:00:16",
+              "updated_at": "2025-08-08 03:00:16",
+              "category_name": "哲学"
+            },
+            {
+              "id": 10,
+              "isbn": "9787555292258",
+              "title": "二十四史：少年精编版．第4卷，宋史 辽史 金史 元史 明史",
+              "author": "何孝荣",
+              "publisher": "青岛出版社",
+              "publish_date": null,
+              "category_id": null,
+              "cover_url": "",
+              "description": "《二十四史少年精编版》（何孝荣主编）精心挑选“二十四史”书中的重要的人物，以更适合青少年阅读的语言，将原著精华浓缩，编写了500余则故事，并配以600余幅精美插图。为了让青少年在读史的同时，丰富文化知识，这套图书中特意增设了读史学成语栏目。二十四史记叙的时间，从《史记》记叙传说中的黄帝起，到*后一部《明史》记叙到明崇祯皇帝为止，前后历时4000多年，用统一的本纪、列传的纪传体编写。二十四史的内容非常丰富，记载了历代经济、政治、文化艺术和科学技术等各方面的事迹。为了让广大青少年可以更好阅读这部这套著作，编者针对少年阅读取向，进行了有益的探索和细致的加工。尤其是所配的彩图，富有历史意蕴，有身临其境之感。",
+              "price": 156,
+              "room": "123",
+              "shelf": "1",
+              "row": "1",
+              "column": "1",
+              "number": "2",
+              "status": "borrowed",
+              "created_at": "2025-08-08 02:49:32",
+              "updated_at": "2025-08-08 02:50:36",
+              "category_name": null
+            },
+            {
+              "id": 9,
+              "isbn": "9787216103763",
+              "title": "数学探究应用新思维．七年级",
+              "author": "黄东坡",
+              "publisher": "湖北人民出版社",
+              "publish_date": null,
+              "category_id": null,
+              "cover_url": "",
+              "description": "“探究应用新思维”丛书面向中考和有学科兴趣特长的学生。依据课程标准新理念，倡导发展学生的学科核心素养，以“注重探究，强化应用”为宗旨，解构和重筑从基础到能力的科学培训之路。本书与人教版七年级数学教材配套，分为“数与代数”“空间与图形”“统计与概率”三大部分，三十六个专题（含微探究），每个专题又分为“解读课标”“问题解决”“数学冲浪”三大版块，“数学冲浪”又划分为“知识技能广场”“思维方法天地”“应用探究乐园”三个层次。在修订后，重组了人教版七年级数学教材的内容，从学科的整体性、问题的交汇性出发，增添了新的专题，补充了新的问题，特别关注问题的探究性与应用性、引领性与发展性。",
+              "price": 49,
+              "room": "112",
+              "shelf": "1",
+              "row": "1",
+              "column": "1",
+              "number": "1234",
+              "status": "available",
+              "created_at": "2025-08-08 02:16:26",
+              "updated_at": "2025-08-08 02:16:26",
+              "category_name": null
+            },
+            {
+              "id": 2,
+              "isbn": "9787536693968",
+              "title": "三体 中国科幻基石丛书 黑暗森林",
+              "author": "刘慈欣",
+              "publisher": "重庆出版社",
+              "publish_date": "2008-01-01",
+              "category_id": 2,
+              "cover_url": "https://data-isbn.oss-cn-hangzhou.aliyuncs.com/8mq65wrl556p8kms7ubde3hfb8entytg.jpg",
+              "description": "三体人在利用魔法般的科技锁死了地球人的科学之后，庞大的宇宙舰队杀气腾腾地直扑太阳系，意欲清除地球文明。 面对前所未有的危局，经历过无数磨难的地球人组建起同样庞大的太空舰队，同时，利用三体人思维透明的致命缺陷，制订了神秘莫测的“面壁计划”，精选出四位“面壁者”。秘密展开对三体人的反击。 三体人自身虽然无法识破人类的诡谲计谋，却依靠由地球人中的背叛者挑选出的“破壁人”，与“面壁者”展开智慧博弈…… “面壁计划”究竟能否成功？地球人究竟能否在这场你死我活的文明生存竞争中战而胜之？神秘的 “黑暗森林”究竟意味着什么？",
+              "price": 32,
+              "room": "111",
+              "shelf": "1",
+              "row": "1",
+              "column": "1",
+              "number": "1",
+              "status": "available",
+              "created_at": "2025-08-07 10:11:58",
+              "updated_at": "2025-08-07 23:56:03",
+              "category_name": "小说"
+            }
+          ],
+          "total": 15,
+          "page": 1,
+          "limit": 20
+        }
+      }
+    },
+    {
+      "test": "添加图书",
+      "success": false,
+      "message": "响应格式不正确",
+      "timestamp": "2025-08-09T04:41:03.085Z",
+      "responseData": {
+        "success": true,
+        "message": "图书添加成功",
+        "data": {}
+      }
+    },
+    {
+      "test": "搜索图书",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:41:03.088Z",
+      "responseData": {
+        "success": true,
+        "data": {
+          "books": [
+            {
+              "id": 23,
+              "isbn": "9780000463082",
+              "title": "测试图书1754714463082",
+              "author": "测试作者",
+              "publisher": "",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "",
+              "shelf": "",
+              "row": "",
+              "column": "",
+              "number": "",
+              "status": "available",
+              "created_at": "2025-08-09 04:41:03",
+              "updated_at": "2025-08-09 04:41:03",
+              "category_name": "文学"
+            },
+            {
+              "id": 22,
+              "isbn": "9780000000000",
+              "title": "测试图书1754714270627",
+              "author": "测试作者",
+              "publisher": "",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "",
+              "shelf": "",
+              "row": "",
+              "column": "",
+              "number": "",
+              "status": "available",
+              "created_at": "2025-08-09 04:37:50",
+              "updated_at": "2025-08-09 04:37:50",
+              "category_name": "文学"
+            },
+            {
+              "id": 21,
+              "isbn": "9787222222222420",
+              "title": "借阅测试图书",
+              "author": "测试作者",
+              "publisher": "",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "测试房间",
+              "shelf": "B1",
+              "row": "1",
+              "column": "1",
+              "number": "002",
+              "status": "available",
+              "created_at": "2025-08-09 03:27:42",
+              "updated_at": "2025-08-09 03:27:42",
+              "category_name": "文学"
+            },
+            {
+              "id": 20,
+              "isbn": "9787111111111912",
+              "title": "测试图书",
+              "author": "测试作者",
+              "publisher": "测试出版社",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "测试房间",
+              "shelf": "A1",
+              "row": "1",
+              "column": "1",
+              "number": "001",
+              "status": "available",
+              "created_at": "2025-08-09 03:27:41",
+              "updated_at": "2025-08-09 03:27:41",
+              "category_name": "文学"
+            },
+            {
+              "id": 18,
+              "isbn": "9787111111111224",
+              "title": "测试图书",
+              "author": "测试作者",
+              "publisher": "测试出版社",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "测试房间",
+              "shelf": "A1",
+              "row": "1",
+              "column": "1",
+              "number": "001",
+              "status": "available",
+              "created_at": "2025-08-09 03:26:49",
+              "updated_at": "2025-08-09 03:26:49",
+              "category_name": "文学"
+            },
+            {
+              "id": 19,
+              "isbn": "9787222222222731",
+              "title": "借阅测试图书",
+              "author": "测试作者",
+              "publisher": "",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "测试房间",
+              "shelf": "B1",
+              "row": "1",
+              "column": "1",
+              "number": "002",
+              "status": "available",
+              "created_at": "2025-08-09 03:26:49",
+              "updated_at": "2025-08-09 03:26:49",
+              "category_name": "文学"
+            },
+            {
+              "id": 16,
+              "isbn": "9787111111111432",
+              "title": "测试图书",
+              "author": "测试作者",
+              "publisher": "测试出版社",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "测试房间",
+              "shelf": "A1",
+              "row": "1",
+              "column": "1",
+              "number": "001",
+              "status": "available",
+              "created_at": "2025-08-09 03:26:11",
+              "updated_at": "2025-08-09 03:26:11",
+              "category_name": "文学"
+            },
+            {
+              "id": 17,
+              "isbn": "9787222222222951",
+              "title": "借阅测试图书",
+              "author": "测试作者",
+              "publisher": "",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "测试房间",
+              "shelf": "B1",
+              "row": "1",
+              "column": "1",
+              "number": "002",
+              "status": "available",
+              "created_at": "2025-08-09 03:26:11",
+              "updated_at": "2025-08-09 03:26:11",
+              "category_name": "文学"
+            },
+            {
+              "id": 14,
+              "isbn": "9787111111111",
+              "title": "测试图书",
+              "author": "测试作者",
+              "publisher": "测试出版社",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "测试房间",
+              "shelf": "A1",
+              "row": "1",
+              "column": "1",
+              "number": "001",
+              "status": "available",
+              "created_at": "2025-08-09 03:04:19",
+              "updated_at": "2025-08-09 03:04:19",
+              "category_name": "文学"
+            },
+            {
+              "id": 15,
+              "isbn": "9787222222222",
+              "title": "借阅测试图书",
+              "author": "测试作者",
+              "publisher": "",
+              "publish_date": null,
+              "category_id": 1,
+              "cover_url": "",
+              "description": "",
+              "price": 0,
+              "room": "测试房间",
+              "shelf": "B1",
+              "row": "1",
+              "column": "1",
+              "number": "002",
+              "status": "available",
+              "created_at": "2025-08-09 03:04:19",
+              "updated_at": "2025-08-09 03:04:19",
+              "category_name": "文学"
+            }
+          ],
+          "total": 10,
+          "page": 1,
+          "limit": 20
+        }
+      }
+    },
+    {
+      "test": "获取分类列表",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:41:03.613Z",
+      "responseData": {
+        "success": true,
+        "data": [
+          {
+            "id": 15,
+            "name": "1",
+            "code": "1",
+            "parent_id": null,
+            "level": 1,
+            "created_at": "2025-08-08 02:21:03"
+          },
+          {
+            "id": 14,
+            "name": "11",
+            "code": "111",
+            "parent_id": null,
+            "level": 1,
+            "created_at": "2025-08-08 00:02:49"
+          },
+          {
+            "id": 13,
+            "name": "科幻",
+            "code": "123",
+            "parent_id": null,
+            "level": 1,
+            "created_at": "2025-08-07 23:43:23"
+          },
+          {
+            "id": 10,
+            "name": "哲学",
+            "code": "B",
+            "parent_id": null,
+            "level": 1,
+            "created_at": "2025-08-07 10:10:09"
+          },
+          {
+            "id": 1,
+            "name": "文学",
+            "code": "I",
+            "parent_id": null,
+            "level": 1,
+            "created_at": "2025-08-07 10:10:09"
+          },
+          {
+            "id": 4,
+            "name": "历史",
+            "code": "K",
+            "parent_id": null,
+            "level": 1,
+            "created_at": "2025-08-07 10:10:09"
+          },
+          {
+            "id": 7,
+            "name": "科学技术",
+            "code": "T",
+            "parent_id": null,
+            "level": 1,
+            "created_at": "2025-08-07 10:10:09"
+          },
+          {
+            "id": 17,
+            "name": "测试分类",
+            "code": "TEST",
+            "parent_id": null,
+            "level": 1,
+            "created_at": "2025-08-09 03:04:18"
+          },
+          {
+            "id": 18,
+            "name": "测试分类",
+            "code": "TEST_1754709970881",
+            "parent_id": null,
+            "level": 1,
+            "created_at": "2025-08-09 03:26:10"
+          },
+          {
+            "id": 19,
+            "name": "测试分类",
+            "code": "TEST_1754710008711",
+            "parent_id": null,
+            "level": 1,
+            "created_at": "2025-08-09 03:26:48"
+          },
+          {
+            "id": 20,
+            "name": "测试分类",
+            "code": "TEST_1754710061401",
+            "parent_id": null,
+            "level": 1,
+            "created_at": "2025-08-09 03:27:41"
+          },
+          {
+            "id": 12,
+            "name": "测试分类",
+            "code": "TEST_5808",
+            "parent_id": null,
+            "level": 1,
+            "created_at": "2025-08-07 12:00:51"
+          },
+          {
+            "id": 11,
+            "name": "测试分类",
+            "code": "TEST_CAT",
+            "parent_id": null,
+            "level": 1,
+            "created_at": "2025-08-07 11:51:02"
+          },
+          {
+            "id": 2,
+            "name": "小说",
+            "code": "I2",
+            "parent_id": 1,
+            "level": 2,
+            "created_at": "2025-08-07 10:10:09"
+          },
+          {
+            "id": 3,
+            "name": "诗歌",
+            "code": "I22",
+            "parent_id": 1,
+            "level": 2,
+            "created_at": "2025-08-07 10:10:09"
+          },
+          {
+            "id": 5,
+            "name": "中国历史",
+            "code": "K2",
+            "parent_id": 4,
+            "level": 2,
+            "created_at": "2025-08-07 10:10:09"
+          },
+          {
+            "id": 6,
+            "name": "世界历史",
+            "code": "K9",
+            "parent_id": 4,
+            "level": 2,
+            "created_at": "2025-08-07 10:10:09"
+          },
+          {
+            "id": 16,
+            "name": "1112",
+            "code": "33",
+            "parent_id": 7,
+            "level": 2,
+            "created_at": "2025-08-08 03:17:56"
+          },
+          {
+            "id": 9,
+            "name": "电子技术",
+            "code": "TN",
+            "parent_id": 7,
+            "level": 2,
+            "created_at": "2025-08-07 10:10:09"
+          },
+          {
+            "id": 8,
+            "name": "计算机",
+            "code": "TP",
+            "parent_id": 7,
+            "level": 2,
+            "created_at": "2025-08-07 10:10:09"
+          }
+        ]
+      }
+    },
+    {
+      "test": "添加分类",
+      "success": false,
+      "message": "响应格式不正确",
+      "timestamp": "2025-08-09T04:41:03.627Z",
+      "responseData": {
+        "success": true,
+        "message": "分类添加成功",
+        "data": {}
+      }
+    },
+    {
+      "test": "获取借阅记录",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:41:04.133Z",
+      "responseData": {
+        "success": true,
+        "data": {
+          "borrows": [
+            {
+              "id": 5,
+              "book_id": 10,
+              "borrower": "3",
+              "borrow_date": "2025-08-08 03:43:33",
+              "due_date": "2025-09-07",
+              "return_date": null,
+              "status": "borrowed",
+              "created_at": "2025-08-08 03:43:33",
+              "contact": "445",
+              "notes": "",
+              "title": "二十四史：少年精编版．第4卷，宋史 辽史 金史 元史 明史",
+              "author": "何孝荣",
+              "isbn": "9787555292258",
+              "cover_url": ""
+            },
+            {
+              "id": 4,
+              "book_id": 10,
+              "borrower": "123",
+              "borrow_date": "2025-08-08 02:51:26",
+              "due_date": "2025-09-07",
+              "return_date": "2025-08-08 02:53:15",
+              "status": "returned",
+              "created_at": "2025-08-08 02:51:26",
+              "contact": "",
+              "notes": "",
+              "title": "二十四史：少年精编版．第4卷，宋史 辽史 金史 元史 明史",
+              "author": "何孝荣",
+              "isbn": "9787555292258",
+              "cover_url": ""
+            },
+            {
+              "id": 3,
+              "book_id": 2,
+              "borrower": "1",
+              "borrow_date": "2025-08-08 02:13:14",
+              "due_date": "2025-09-07",
+              "return_date": "2025-08-08 02:17:35",
+              "status": "returned",
+              "created_at": "2025-08-08 02:13:14",
+              "contact": "",
+              "notes": "",
+              "title": "三体 中国科幻基石丛书 黑暗森林",
+              "author": "刘慈欣",
+              "isbn": "9787536693968",
+              "cover_url": "https://data-isbn.oss-cn-hangzhou.aliyuncs.com/8mq65wrl556p8kms7ubde3hfb8entytg.jpg"
+            },
+            {
+              "id": 2,
+              "book_id": 2,
+              "borrower": "12",
+              "borrow_date": "2025-08-08 00:02:01",
+              "due_date": "2025-09-07",
+              "return_date": "2025-08-08 00:30:42",
+              "status": "returned",
+              "created_at": "2025-08-08 00:02:01",
+              "contact": "",
+              "notes": "",
+              "title": "三体 中国科幻基石丛书 黑暗森林",
+              "author": "刘慈欣",
+              "isbn": "9787536693968",
+              "cover_url": "https://data-isbn.oss-cn-hangzhou.aliyuncs.com/8mq65wrl556p8kms7ubde3hfb8entytg.jpg"
+            },
+            {
+              "id": 1,
+              "book_id": 2,
+              "borrower": "全润琦",
+              "borrow_date": "2025-08-07 23:42:51",
+              "due_date": "2025-09-07",
+              "return_date": "2025-08-07 23:44:08",
+              "status": "returned",
+              "created_at": "2025-08-07 23:42:51",
+              "contact": "",
+              "notes": "",
+              "title": "三体 中国科幻基石丛书 黑暗森林",
+              "author": "刘慈欣",
+              "isbn": "9787536693968",
+              "cover_url": "https://data-isbn.oss-cn-hangzhou.aliyuncs.com/8mq65wrl556p8kms7ubde3hfb8entytg.jpg"
+            }
+          ],
+          "total": 5,
+          "page": 1,
+          "limit": 20
+        }
+      }
+    },
+    {
+      "test": "获取即将到期借阅",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:41:04.135Z",
+      "responseData": {
+        "success": true,
+        "data": []
+      }
+    },
+    {
+      "test": "获取最近活动",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:41:04.136Z",
+      "responseData": {
+        "success": true,
+        "data": [
+          {
+            "id": 5,
+            "userName": "3",
+            "bookTitle": "二十四史：少年精编版．第4卷，宋史 辽史 金史 元史 明史",
+            "type": "borrow",
+            "time": "1天前"
+          },
+          {
+            "id": 4,
+            "userName": "123",
+            "bookTitle": "二十四史：少年精编版．第4卷，宋史 辽史 金史 元史 明史",
+            "type": "return",
+            "time": "1天前"
+          },
+          {
+            "id": 3,
+            "userName": "1",
+            "bookTitle": "三体 中国科幻基石丛书 黑暗森林",
+            "type": "return",
+            "time": "1天前"
+          },
+          {
+            "id": 2,
+            "userName": "12",
+            "bookTitle": "三体 中国科幻基石丛书 黑暗森林",
+            "type": "return",
+            "time": "1天前"
+          },
+          {
+            "id": 1,
+            "userName": "全润琦",
+            "bookTitle": "三体 中国科幻基石丛书 黑暗森林",
+            "type": "return",
+            "time": "1天前"
+          }
+        ]
+      }
+    },
+    {
+      "test": "获取概览统计",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:41:04.643Z",
+      "responseData": {
+        "success": true,
+        "data": {
+          "totalBooks": 16,
+          "availableBooks": 15,
+          "borrowedBooks": 1,
+          "totalBorrows": 5,
+          "currentBorrows": 1,
+          "overdueBorrows": 0,
+          "totalCategories": 21
+        }
+      }
+    },
+    {
+      "test": "获取月度统计",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:41:04.644Z",
+      "responseData": {
+        "success": true,
+        "data": {
+          "newBooks": 16,
+          "monthlyBorrows": 5,
+          "popularCategory": "小说"
+        }
+      }
+    },
+    {
+      "test": "获取分类统计",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:41:04.646Z",
+      "responseData": {
+        "success": true,
+        "data": [
+          {
+            "category_name": "文学",
+            "category_code": "I",
+            "book_count": 11
+          },
+          {
+            "category_name": "哲学",
+            "category_code": "B",
+            "book_count": 1
+          },
+          {
+            "category_name": "小说",
+            "category_code": "I2",
+            "book_count": 1
+          },
+          {
+            "category_name": "历史",
+            "category_code": "K",
+            "book_count": 1
+          },
+          {
+            "category_name": "1",
+            "category_code": "1",
+            "book_count": 0
+          },
+          {
+            "category_name": "11",
+            "category_code": "111",
+            "book_count": 0
+          },
+          {
+            "category_name": "科幻",
+            "category_code": "123",
+            "book_count": 0
+          },
+          {
+            "category_name": "1112",
+            "category_code": "33",
+            "book_count": 0
+          },
+          {
+            "category_name": "诗歌",
+            "category_code": "I22",
+            "book_count": 0
+          },
+          {
+            "category_name": "中国历史",
+            "category_code": "K2",
+            "book_count": 0
+          },
+          {
+            "category_name": "世界历史",
+            "category_code": "K9",
+            "book_count": 0
+          },
+          {
+            "category_name": "科学技术",
+            "category_code": "T",
+            "book_count": 0
+          },
+          {
+            "category_name": "测试分类",
+            "category_code": "TEST",
+            "book_count": 0
+          },
+          {
+            "category_name": "测试分类1754714463613",
+            "category_code": "TEST1754714463613",
+            "book_count": 0
+          },
+          {
+            "category_name": "测试分类",
+            "category_code": "TEST_1754709970881",
+            "book_count": 0
+          },
+          {
+            "category_name": "测试分类",
+            "category_code": "TEST_1754710008711",
+            "book_count": 0
+          },
+          {
+            "category_name": "测试分类",
+            "category_code": "TEST_1754710061401",
+            "book_count": 0
+          },
+          {
+            "category_name": "测试分类",
+            "category_code": "TEST_5808",
+            "book_count": 0
+          },
+          {
+            "category_name": "测试分类",
+            "category_code": "TEST_CAT",
+            "book_count": 0
+          },
+          {
+            "category_name": "电子技术",
+            "category_code": "TN",
+            "book_count": 0
+          },
+          {
+            "category_name": "计算机",
+            "category_code": "TP",
+            "book_count": 0
+          }
+        ]
+      }
+    },
+    {
+      "test": "获取设置",
+      "success": false,
+      "message": "",
+      "timestamp": "2025-08-09T04:41:05.154Z",
+      "responseData": {
+        "success": true,
+        "data": {
+          "default_borrow_days": {
+            "value": "30",
+            "description": "默认借阅天数",
+            "type": "number",
+            "updatedAt": "2025-08-09 03:27:44"
+          },
+          "isbn_api_key": {
+            "value": "17e871ea05cd4396b5ce985308fa113f",
+            "description": "ISBN API密钥",
+            "type": "string",
+            "updatedAt": "2025-08-07 10:10:09"
+          },
+          "max_borrow_books": {
+            "value": "5",
+            "description": "最大借阅图书数量",
+            "type": "number",
+            "updatedAt": "2025-08-09 03:24:06"
+          },
+          "reminder_hours": {
+            "value": "24",
+            "description": "到期提醒提前小时数",
+            "type": "number",
+            "updatedAt": "2025-08-07 10:10:09"
+          },
+          "system_name": {
+            "value": "测试图书馆",
+            "description": "系统名称",
+            "type": "string",
+            "updatedAt": "2025-08-07 12:00:51"
+          }
+        }
+      }
+    },
+    {
+      "test": "更新设置",
+      "success": false,
+      "message": "Request failed with status code 400",
+      "timestamp": "2025-08-09T04:41:05.158Z",
+      "statusCode": 400,
+      "responseData": null
+    },
+    {
+      "test": "ISBN查询",
+      "success": true,
+      "message": "",
+      "timestamp": "2025-08-09T04:41:06.151Z",
+      "responseData": {
+        "success": true,
+        "data": {
+          "isbn": "9787111213826",
+          "title": "Java编程思想",
+          "author": "(美)埃克尔",
+          "publisher": "机械工业",
+          "publishDate": "2020-10-30",
+          "publishPlace": "北京",
+          "price": "108.00",
+          "coverUrl": "https://data-isbn.oss-cn-hangzhou.aliyuncs.com/1soe7yv5ye4gqgzeaed93b6jya48dgz9.jpg",
+          "description": "本书赢得了全球程序员的广泛赞誉，即使是最晦涩的概念，在Bruce Eckel的文字亲和力和小而直接的编程示例面前也会化解于无形。从Java的基础语法到最高级特性（深入的面向对象概念、多线程、自动项目构建、单元测试和调试等），本书都能逐步指导你轻松掌握。 从本书获得的各项大奖以及来自世界各地的读者评论中，不难看出这是一本经典之作。本书的作者拥有多年教学经验，对C、C++以及Java语言都有独到、深入的见解，以通俗易懂及小而直接的示例解释了一个个晦涩抽象的概念。本书共22章，包括操作符、控制执行流程、访问权限控制、复用类、多态、接口、通过异常处理错误、字符串、泛型、数组、容器深入研究、Java I/O系统、枚举类型、并发以及图形化用户界面等内容。这些丰富的内容，包含了Java语言基础语法以及高级特性，适合各个层次的Java程序员阅读，同时也是高等院校讲授... (展开全部) 本书赢得了全球程序员的广泛赞誉，即使是最晦涩的概念，在Bruce Eckel的文字亲和力和小而直接的编程示例面前也会化解于无形。从Java的基础语法到最高级特性（深入的面向对象概念、多线程、自动项目构建、单元测试和调试等），本书都能逐步指导你轻松掌握。 从本书获得的各项大奖以及来自世界各地的读者评论中，不难看出这是一本经典之作。本书的作者拥有多年教学经验，对C、C++以及Java语言都有独到、深入的见解，以通俗易懂及小而直接的示例解释了一个个晦涩抽象的概念。本书共22章，包括操作符、控制执行流程、访问权限控制、复用类、多态、接口、通过异常处理错误、字符串、泛型、数组、容器深入研究、Java I/O系统、枚举类型、并发以及图形化用户界面等内容。这些丰富的内容，包含了Java语言基础语法以及高级特性，适合各个层次的Java程序员阅读，同时也是高等院校讲授面向对象程序设计语言以及Java语言的绝佳教材和参考书。 第4版特点： 适合初学者与专业人员的经典的面向对象叙述方式，为更新的Java SE5/6增加了新的示例和章节。  测验框架显示程序输出。",
+          "binding": "平装",
+          "language": "语种",
+          "format": "32开",
+          "pages": "880页",
+          "edition": "1",
+          "words": "255千字",
+          "clcCode": "TP312",
+          "clcName": "程序语言、算法语言"
+        }
+      }
+    }
+  ],
+  "errors": [
+    {
+      "test": "获取图书列表",
+      "error": "",
+      "response": "{\"success\":true,\"data\":{\"books\":[{\"id\":22,\"isbn\":\"9780000000000\",\"title\":\"测试图书1754714270627\",\"author\":\"测试作者\",\"publisher\":\"\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"\",\"shelf\":\"\",\"row\":\"\",\"column\":\"\",\"number\":\"\",\"status\":\"available\",\"created_at\":\"2025-08-09 04:37:50\",\"updated_at\":\"2025-08-09 04:37:50\",\"category_name\":\"文学\"},{\"id\":21,\"isbn\":\"9787222222222420\",\"title\":\"借阅测试图书\",\"author\":\"测试作者\",\"publisher\":\"\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"测试房间\",\"shelf\":\"B1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"002\",\"status\":\"available\",\"created_at\":\"2025-08-09 03:27:42\",\"updated_at\":\"2025-08-09 03:27:42\",\"category_name\":\"文学\"},{\"id\":20,\"isbn\":\"9787111111111912\",\"title\":\"测试图书\",\"author\":\"测试作者\",\"publisher\":\"测试出版社\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"测试房间\",\"shelf\":\"A1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"001\",\"status\":\"available\",\"created_at\":\"2025-08-09 03:27:41\",\"updated_at\":\"2025-08-09 03:27:41\",\"category_name\":\"文学\"},{\"id\":18,\"isbn\":\"9787111111111224\",\"title\":\"测试图书\",\"author\":\"测试作者\",\"publisher\":\"测试出版社\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"测试房间\",\"shelf\":\"A1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"001\",\"status\":\"available\",\"created_at\":\"2025-08-09 03:26:49\",\"updated_at\":\"2025-08-09 03:26:49\",\"category_name\":\"文学\"},{\"id\":19,\"isbn\":\"9787222222222731\",\"title\":\"借阅测试图书\",\"author\":\"测试作者\",\"publisher\":\"\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"测试房间\",\"shelf\":\"B1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"002\",\"status\":\"available\",\"created_at\":\"2025-08-09 03:26:49\",\"updated_at\":\"2025-08-09 03:26:49\",\"category_name\":\"文学\"},{\"id\":16,\"isbn\":\"9787111111111432\",\"title\":\"测试图书\",\"author\":\"测试作者\",\"publisher\":\"测试出版社\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"测试房间\",\"shelf\":\"A1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"001\",\"status\":\"available\",\"created_at\":\"2025-08-09 03:26:11\",\"updated_at\":\"2025-08-09 03:26:11\",\"category_name\":\"文学\"},{\"id\":17,\"isbn\":\"9787222222222951\",\"title\":\"借阅测试图书\",\"author\":\"测试作者\",\"publisher\":\"\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"测试房间\",\"shelf\":\"B1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"002\",\"status\":\"available\",\"created_at\":\"2025-08-09 03:26:11\",\"updated_at\":\"2025-08-09 03:26:11\",\"category_name\":\"文学\"},{\"id\":14,\"isbn\":\"9787111111111\",\"title\":\"测试图书\",\"author\":\"测试作者\",\"publisher\":\"测试出版社\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"测试房间\",\"shelf\":\"A1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"001\",\"status\":\"available\",\"created_at\":\"2025-08-09 03:04:19\",\"updated_at\":\"2025-08-09 03:04:19\",\"category_name\":\"文学\"},{\"id\":15,\"isbn\":\"9787222222222\",\"title\":\"借阅测试图书\",\"author\":\"测试作者\",\"publisher\":\"\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"测试房间\",\"shelf\":\"B1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"002\",\"status\":\"available\",\"created_at\":\"2025-08-09 03:04:19\",\"updated_at\":\"2025-08-09 03:04:19\",\"category_name\":\"文学\"},{\"id\":13,\"isbn\":\"9787100069595\",\"title\":\"新华字典\",\"author\":\"商务印书馆 编\",\"publisher\":\"商务印书馆\",\"publish_date\":\"2011-01-01\",\"category_id\":1,\"cover_url\":\"https://data-isbn.oss-cn-hangzhou.aliyuncs.com/gr4a2jbf2z0pdt9ing5lual6a5z4ee0h.jpg\",\"description\":\"本字典新增正体字800多个，以姓氏、人名、地名用字和科技术语用字为主；增收繁体字1500多个，异体字500多个。\",\"price\":19.9,\"room\":\"11\",\"shelf\":\"1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"1\",\"status\":\"available\",\"created_at\":\"2025-08-08 03:16:39\",\"updated_at\":\"2025-08-08 03:16:39\",\"category_name\":\"文学\"},{\"id\":12,\"isbn\":\"9787302518327\",\"title\":\"1211\",\"author\":\"1111\",\"publisher\":\"\",\"publish_date\":null,\"category_id\":4,\"cover_url\":\"\",\"description\":\"\",\"price\":0.08,\"room\":\"11\",\"shelf\":\"1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"1\",\"status\":\"available\",\"created_at\":\"2025-08-08 03:03:14\",\"updated_at\":\"2025-08-08 03:03:14\",\"category_name\":\"历史\"},{\"id\":11,\"isbn\":\"9787308236409\",\"title\":\"1232\",\"author\":\"111\",\"publisher\":\"\",\"publish_date\":null,\"category_id\":10,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"101\",\"shelf\":\"1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"1\",\"status\":\"available\",\"created_at\":\"2025-08-08 03:00:16\",\"updated_at\":\"2025-08-08 03:00:16\",\"category_name\":\"哲学\"},{\"id\":10,\"isbn\":\"9787555292258\",\"title\":\"二十四史：少年精编版．第4卷，宋史 辽史 金史 元史 明史\",\"author\":\"何孝荣\",\"publisher\":\"青岛出版社\",\"publish_date\":null,\"category_id\":null,\"cover_url\":\"\",\"description\":\"《二十四史少年精编版》（何孝荣主编）精心挑选“二十四史”书中的重要的人物，以更适合青少年阅读的语言，将原著精华浓缩，编写了500余则故事，并配以600余幅精美插图。为了让青少年在读史的同时，丰富文化知识，这套图书中特意增设了读史学成语栏目。二十四史记叙的时间，从《史记》记叙传说中的黄帝起，到*后一部《明史》记叙到明崇祯皇帝为止，前后历时4000多年，用统一的本纪、列传的纪传体编写。二十四史的内容非常丰富，记载了历代经济、政治、文化艺术和科学技术等各方面的事迹。为了让广大青少年可以更好阅读这部这套著作，编者针对少年阅读取向，进行了有益的探索和细致的加工。尤其是所配的彩图，富有历史意蕴，有身临其境之感。\",\"price\":156,\"room\":\"123\",\"shelf\":\"1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"2\",\"status\":\"borrowed\",\"created_at\":\"2025-08-08 02:49:32\",\"updated_at\":\"2025-08-08 02:50:36\",\"category_name\":null},{\"id\":9,\"isbn\":\"9787216103763\",\"title\":\"数学探究应用新思维．七年级\",\"author\":\"黄东坡\",\"publisher\":\"湖北人民出版社\",\"publish_date\":null,\"category_id\":null,\"cover_url\":\"\",\"description\":\"“探究应用新思维”丛书面向中考和有学科兴趣特长的学生。依据课程标准新理念，倡导发展学生的学科核心素养，以“注重探究，强化应用”为宗旨，解构和重筑从基础到能力的科学培训之路。本书与人教版七年级数学教材配套，分为“数与代数”“空间与图形”“统计与概率”三大部分，三十六个专题（含微探究），每个专题又分为“解读课标”“问题解决”“数学冲浪”三大版块，“数学冲浪”又划分为“知识技能广场”“思维方法天地”“应用探究乐园”三个层次。在修订后，重组了人教版七年级数学教材的内容，从学科的整体性、问题的交汇性出发，增添了新的专题，补充了新的问题，特别关注问题的探究性与应用性、引领性与发展性。\",\"price\":49,\"room\":\"112\",\"shelf\":\"1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"1234\",\"status\":\"available\",\"created_at\":\"2025-08-08 02:16:26\",\"updated_at\":\"2025-08-08 02:16:26\",\"category_name\":null},{\"id\":2,\"isbn\":\"9787536693968\",\"title\":\"三体 中国科幻基石丛书 黑暗森林\",\"author\":\"刘慈欣\",\"publisher\":\"重庆出版社\",\"publish_date\":\"2008-01-01\",\"category_id\":2,\"cover_url\":\"https://data-isbn.oss-cn-hangzhou.aliyuncs.com/8mq65wrl556p8kms7ubde3hfb8entytg.jpg\",\"description\":\"三体人在利用魔法般的科技锁死了地球人的科学之后，庞大的宇宙舰队杀气腾腾地直扑太阳系，意欲清除地球文明。 面对前所未有的危局，经历过无数磨难的地球人组建起同样庞大的太空舰队，同时，利用三体人思维透明的致命缺陷，制订了神秘莫测的“面壁计划”，精选出四位“面壁者”。秘密展开对三体人的反击。 三体人自身虽然无法识破人类的诡谲计谋，却依靠由地球人中的背叛者挑选出的“破壁人”，与“面壁者”展开智慧博弈…… “面壁计划”究竟能否成功？地球人究竟能否在这场你死我活的文明生存竞争中战而胜之？神秘的 “黑暗森林”究竟意味着什么？\",\"price\":32,\"room\":\"111\",\"shelf\":\"1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"1\",\"status\":\"available\",\"created_at\":\"2025-08-07 10:11:58\",\"updated_at\":\"2025-08-07 23:56:03\",\"category_name\":\"小说\"}],\"total\":15,\"page\":1,\"limit\":20}}"
+    },
+    {
+      "test": "添加图书",
+      "error": "响应格式不正确",
+      "response": "{\"success\":true,\"message\":\"图书添加成功\",\"data\":{}}"
+    },
+    {
+      "test": "搜索图书",
+      "error": "",
+      "response": "{\"success\":true,\"data\":{\"books\":[{\"id\":23,\"isbn\":\"9780000463082\",\"title\":\"测试图书1754714463082\",\"author\":\"测试作者\",\"publisher\":\"\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"\",\"shelf\":\"\",\"row\":\"\",\"column\":\"\",\"number\":\"\",\"status\":\"available\",\"created_at\":\"2025-08-09 04:41:03\",\"updated_at\":\"2025-08-09 04:41:03\",\"category_name\":\"文学\"},{\"id\":22,\"isbn\":\"9780000000000\",\"title\":\"测试图书1754714270627\",\"author\":\"测试作者\",\"publisher\":\"\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"\",\"shelf\":\"\",\"row\":\"\",\"column\":\"\",\"number\":\"\",\"status\":\"available\",\"created_at\":\"2025-08-09 04:37:50\",\"updated_at\":\"2025-08-09 04:37:50\",\"category_name\":\"文学\"},{\"id\":21,\"isbn\":\"9787222222222420\",\"title\":\"借阅测试图书\",\"author\":\"测试作者\",\"publisher\":\"\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"测试房间\",\"shelf\":\"B1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"002\",\"status\":\"available\",\"created_at\":\"2025-08-09 03:27:42\",\"updated_at\":\"2025-08-09 03:27:42\",\"category_name\":\"文学\"},{\"id\":20,\"isbn\":\"9787111111111912\",\"title\":\"测试图书\",\"author\":\"测试作者\",\"publisher\":\"测试出版社\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"测试房间\",\"shelf\":\"A1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"001\",\"status\":\"available\",\"created_at\":\"2025-08-09 03:27:41\",\"updated_at\":\"2025-08-09 03:27:41\",\"category_name\":\"文学\"},{\"id\":18,\"isbn\":\"9787111111111224\",\"title\":\"测试图书\",\"author\":\"测试作者\",\"publisher\":\"测试出版社\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"测试房间\",\"shelf\":\"A1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"001\",\"status\":\"available\",\"created_at\":\"2025-08-09 03:26:49\",\"updated_at\":\"2025-08-09 03:26:49\",\"category_name\":\"文学\"},{\"id\":19,\"isbn\":\"9787222222222731\",\"title\":\"借阅测试图书\",\"author\":\"测试作者\",\"publisher\":\"\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"测试房间\",\"shelf\":\"B1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"002\",\"status\":\"available\",\"created_at\":\"2025-08-09 03:26:49\",\"updated_at\":\"2025-08-09 03:26:49\",\"category_name\":\"文学\"},{\"id\":16,\"isbn\":\"9787111111111432\",\"title\":\"测试图书\",\"author\":\"测试作者\",\"publisher\":\"测试出版社\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"测试房间\",\"shelf\":\"A1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"001\",\"status\":\"available\",\"created_at\":\"2025-08-09 03:26:11\",\"updated_at\":\"2025-08-09 03:26:11\",\"category_name\":\"文学\"},{\"id\":17,\"isbn\":\"9787222222222951\",\"title\":\"借阅测试图书\",\"author\":\"测试作者\",\"publisher\":\"\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"测试房间\",\"shelf\":\"B1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"002\",\"status\":\"available\",\"created_at\":\"2025-08-09 03:26:11\",\"updated_at\":\"2025-08-09 03:26:11\",\"category_name\":\"文学\"},{\"id\":14,\"isbn\":\"9787111111111\",\"title\":\"测试图书\",\"author\":\"测试作者\",\"publisher\":\"测试出版社\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"测试房间\",\"shelf\":\"A1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"001\",\"status\":\"available\",\"created_at\":\"2025-08-09 03:04:19\",\"updated_at\":\"2025-08-09 03:04:19\",\"category_name\":\"文学\"},{\"id\":15,\"isbn\":\"9787222222222\",\"title\":\"借阅测试图书\",\"author\":\"测试作者\",\"publisher\":\"\",\"publish_date\":null,\"category_id\":1,\"cover_url\":\"\",\"description\":\"\",\"price\":0,\"room\":\"测试房间\",\"shelf\":\"B1\",\"row\":\"1\",\"column\":\"1\",\"number\":\"002\",\"status\":\"available\",\"created_at\":\"2025-08-09 03:04:19\",\"updated_at\":\"2025-08-09 03:04:19\",\"category_name\":\"文学\"}],\"total\":10,\"page\":1,\"limit\":20}}"
+    },
+    {
+      "test": "添加分类",
+      "error": "响应格式不正确",
+      "response": "{\"success\":true,\"message\":\"分类添加成功\",\"data\":{}}"
+    },
+    {
+      "test": "获取借阅记录",
+      "error": "",
+      "response": "{\"success\":true,\"data\":{\"borrows\":[{\"id\":5,\"book_id\":10,\"borrower\":\"3\",\"borrow_date\":\"2025-08-08 03:43:33\",\"due_date\":\"2025-09-07\",\"return_date\":null,\"status\":\"borrowed\",\"created_at\":\"2025-08-08 03:43:33\",\"contact\":\"445\",\"notes\":\"\",\"title\":\"二十四史：少年精编版．第4卷，宋史 辽史 金史 元史 明史\",\"author\":\"何孝荣\",\"isbn\":\"9787555292258\",\"cover_url\":\"\"},{\"id\":4,\"book_id\":10,\"borrower\":\"123\",\"borrow_date\":\"2025-08-08 02:51:26\",\"due_date\":\"2025-09-07\",\"return_date\":\"2025-08-08 02:53:15\",\"status\":\"returned\",\"created_at\":\"2025-08-08 02:51:26\",\"contact\":\"\",\"notes\":\"\",\"title\":\"二十四史：少年精编版．第4卷，宋史 辽史 金史 元史 明史\",\"author\":\"何孝荣\",\"isbn\":\"9787555292258\",\"cover_url\":\"\"},{\"id\":3,\"book_id\":2,\"borrower\":\"1\",\"borrow_date\":\"2025-08-08 02:13:14\",\"due_date\":\"2025-09-07\",\"return_date\":\"2025-08-08 02:17:35\",\"status\":\"returned\",\"created_at\":\"2025-08-08 02:13:14\",\"contact\":\"\",\"notes\":\"\",\"title\":\"三体 中国科幻基石丛书 黑暗森林\",\"author\":\"刘慈欣\",\"isbn\":\"9787536693968\",\"cover_url\":\"https://data-isbn.oss-cn-hangzhou.aliyuncs.com/8mq65wrl556p8kms7ubde3hfb8entytg.jpg\"},{\"id\":2,\"book_id\":2,\"borrower\":\"12\",\"borrow_date\":\"2025-08-08 00:02:01\",\"due_date\":\"2025-09-07\",\"return_date\":\"2025-08-08 00:30:42\",\"status\":\"returned\",\"created_at\":\"2025-08-08 00:02:01\",\"contact\":\"\",\"notes\":\"\",\"title\":\"三体 中国科幻基石丛书 黑暗森林\",\"author\":\"刘慈欣\",\"isbn\":\"9787536693968\",\"cover_url\":\"https://data-isbn.oss-cn-hangzhou.aliyuncs.com/8mq65wrl556p8kms7ubde3hfb8entytg.jpg\"},{\"id\":1,\"book_id\":2,\"borrower\":\"全润琦\",\"borrow_date\":\"2025-08-07 23:42:51\",\"due_date\":\"2025-09-07\",\"return_date\":\"2025-08-07 23:44:08\",\"status\":\"returned\",\"created_at\":\"2025-08-07 23:42:51\",\"contact\":\"\",\"notes\":\"\",\"title\":\"三体 中国科幻基石丛书 黑暗森林\",\"author\":\"刘慈欣\",\"isbn\":\"9787536693968\",\"cover_url\":\"https://data-isbn.oss-cn-hangzhou.aliyuncs.com/8mq65wrl556p8kms7ubde3hfb8entytg.jpg\"}],\"total\":5,\"page\":1,\"limit\":20}}"
+    },
+    {
+      "test": "获取月度统计",
+      "error": "",
+      "response": "{\"success\":true,\"data\":{\"newBooks\":16,\"monthlyBorrows\":5,\"popularCategory\":\"小说\"}}"
+    },
+    {
+      "test": "获取设置",
+      "error": "",
+      "response": "{\"success\":true,\"data\":{\"default_borrow_days\":{\"value\":\"30\",\"description\":\"默认借阅天数\",\"type\":\"number\",\"updatedAt\":\"2025-08-09 03:27:44\"},\"isbn_api_key\":{\"value\":\"17e871ea05cd4396b5ce985308fa113f\",\"description\":\"ISBN API密钥\",\"type\":\"string\",\"updatedAt\":\"2025-08-07 10:10:09\"},\"max_borrow_books\":{\"value\":\"5\",\"description\":\"最大借阅图书数量\",\"type\":\"number\",\"updatedAt\":\"2025-08-09 03:24:06\"},\"reminder_hours\":{\"value\":\"24\",\"description\":\"到期提醒提前小时数\",\"type\":\"number\",\"updatedAt\":\"2025-08-07 10:10:09\"},\"system_name\":{\"value\":\"测试图书馆\",\"description\":\"系统名称\",\"type\":\"string\",\"updatedAt\":\"2025-08-07 12:00:51\"}}}"
+    },
+    {
+      "test": "更新设置",
+      "error": "Request failed with status code 400",
+      "response": null,
+      "statusCode": 400,
+      "errorDetails": {
+        "success": false,
+        "message": "设置验证失败",
+        "errors": [
+          "设置项 0 不存在",
+          "设置项 1 不存在"
+        ]
+      }
+    }
+  ]
+}
